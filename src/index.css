@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'FoundersGrotesk';
+  src: url('/path/to/fonts/FoundersGrotesk-Semibold.ttf') format('truetype');
+  font-weight: 600; /* Semibold */
+}
+
+@font-face {
+  font-family: 'NeueMontreal';
+  src: url('/path/to/fonts/NeueMontreal-Regular.ttf') format('truetype');
+  font-weight: 400; /* Regular */
+}
+
+@font-face {
+  font-family: 'Icomoon';
+  src: url('/path/to/fonts/icomoon.ttf') format('truetype');
+}
